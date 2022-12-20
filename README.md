@@ -100,8 +100,8 @@ The following is a summary of time breakdown in each benchmark.
 |Method|Forward Propagation|Backward Propagation|Optimizer|Data Loading|Total|
 |:---|---:|---:|---:|---:|---:|
 |Baseline|158s|160s|217s|28s|602s|
-|Pinned Memory|160s|158s|208s|20s|585s|
+|Pinned Memory|160s|158s|208s|***20s***|585s|
 |cuDNN Autotuner|159s|159s|215s|26s|597s|
-|TorchScript|110s|193s|202s|30s|574s|
+|TorchScript|***110s***|***193s***|202s|30s|574s|
 |All Optimizations|113s|195s|202s|22s|568s|
 
